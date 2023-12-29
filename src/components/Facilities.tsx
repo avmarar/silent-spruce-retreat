@@ -28,7 +28,7 @@ export const Facilities = () => {
                     We offer modern hotel facilities for your comfort.
                 </span>
             </div>
-            <div className="w-auto h-auto flex justify-evenly lg:flex-row md:max-lg:flex-col pt-12 items-center lg:flex-wrap">
+            <div className="w-auto h-auto flex justify-evenly lg:flex-row min-[320px]:max-lg:flex-col pt-12 items-center lg:flex-wrap">
                 <div className="w-[250px] h-[250px] ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center">
                         <FaWifi
@@ -42,7 +42,7 @@ export const Facilities = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-[250px] h-[250px] lg:ml-10 sm:max-lg:mt-10 ">
+                <div className="w-[250px] h-[250px] lg:ml-10 min-[320px]:max-lg:mt-10 ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center ">
                         <FaSquareParking
                             className="w-10 h-10 text-primary"
@@ -55,7 +55,7 @@ export const Facilities = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-[250px] h-[250px] xl:ml-10 sm:max-xl:mt-10 ">
+                <div className="w-[250px] h-[250px] xl:ml-10 min-[320px]:max-xl:mt-10 ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center ">
                         <FaKitchenSet
                             className="w-10 h-10 text-primary"
@@ -68,7 +68,7 @@ export const Facilities = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-[250px] h-[250px] lg:ml-10 sm:max-xl:mt-10 ">
+                <div className="w-[250px] h-[250px] lg:ml-10 min-[320px]:max-xl:mt-10 ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center ">
                         <GrLounge
                             className="w-10 h-10 text-primary"
@@ -82,7 +82,7 @@ export const Facilities = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-auto h-auto flex justify-evenly lg:flex-row sm:max-lg:flex-col pt-12 items-center lg:flex:wrap">
+            <div className="w-auto h-auto flex justify-evenly lg:flex-row min-[320px]:max-lg:flex-col pt-12 items-center lg:flex:wrap">
                 <div className="w-[250px] h-[250px] ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center ">
                         <MdOutdoorGrill
@@ -96,7 +96,7 @@ export const Facilities = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-[250px] h-[250px] lg:ml-10 sm:max-lg:mt-10 ">
+                <div className="w-[250px] h-[250px] lg:ml-10 min-[320px]:max-lg:mt-10 ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center ">
                         <FaVanShuttle
                             className="w-10 h-10 text-primary"
@@ -109,7 +109,7 @@ export const Facilities = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-[250px] h-[250px] lg:ml-10 sm:max-lg:mt-10 ">
+                <div className="w-[250px] h-[250px] lg:ml-10 min-[320px]:max-lg:mt-10 ">
                     <div className="Rectangle8 w-[250px] h-[250px] bg-neutral-50 rounded-[5px] border border-black flex flex-col items-center justify-center ">
                         <MdLocalLaundryService
                             className="w-10 h-10 text-primary"

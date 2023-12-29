@@ -4,7 +4,13 @@
     "trailingComma": "all",
     "singleQuote": true,
     "semi": true,
-    "importOrder": ["^next", "^react-icons/(.*)$", "@/(.*)$", "^[./]"],
+    "importOrder": [
+        "^next",
+        "^react-icons/(.*)$",
+        "@headlessui/(.*)$",
+        "@/(.*)$",
+        "^[./]"
+    ],
     "importOrderSeparation": true,
     "importOrderSortSpecifiers": true,
     "plugins": ["@trivago/prettier-plugin-sort-imports"]
