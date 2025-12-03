@@ -44,7 +44,8 @@ export const Footer = () => {
                 <p
                     className={`text-white text-[15px] font-medium ${poppins.className}`}
                 >
-                    Copyright © 2023 - All right reserved by 3R Residency
+                    Copyright © 2023 - All rights reserved by Silent Spruce
+                    Retreat
                 </p>
             </aside>
         </footer>

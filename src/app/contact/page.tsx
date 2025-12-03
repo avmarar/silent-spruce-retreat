@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <>
             <div className="h-[700px]  bg-[url('/RoomLarge.png')] bg-cover">
-                <div className="h-[700px] bg-neutral-500 bg-opacity-50">
+                <div className="h-[700px] bg-neutral-500/50">
                     <div className="h-[700px] mx-auto  max-w-2xl  p-6 lg:px-8 py-32 sm:py-48 lg:py-56 flex items-center justify-center">
                         <div className="text-center">
                             <h1
@@ -15,8 +15,8 @@ export default function Contact() {
                             <p
                                 className={`mt-6 text-lg leading-8 text-white ${raleway.className}`}
                             >
-                                Let&apos;s Connect! Reach out to 3R Residency
-                                for a Stay to Remember.
+                                Let&apos;s connect! Reach out to Silent Spruce
+                                Retreat for a stay to remember.
                             </p>
                         </div>
                     </div>
@@ -93,17 +93,18 @@ export default function Contact() {
                     </form>
                 </div>
             </section>
-            <div className="w-full h-96">
-                <iframe
-                    className="w-full h-full"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.234827557135!2d77.03185934594198!3d10.019936834034464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07986c9ea757bf%3A0x399afa491752815!2s3R%20Residency!5e1!3m2!1sen!2sau!4v1703817831467!5m2!1sen!2sau"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    aria-hidden="false"
-                    tabIndex={0}
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+            <div className="w-full h-96 bg-neutral-100 flex flex-col items-center justify-center text-center px-6">
+                <h2
+                    className={`text-2xl font-semibold text-secondary ${raleway.className}`}
+                >
+                    Location Reveal Coming Soon
+                </h2>
+                <p className="mt-4 text-secondary text-sm max-w-2xl">
+                    We&apos;re finalizing the guest arrival experience for
+                    Silent Spruce Retreat. A private map and arrival guide will
+                    be shared directly with confirmed guests to preserve the
+                    intimate atmosphere of the property.
+                </p>
             </div>
         </>
     );

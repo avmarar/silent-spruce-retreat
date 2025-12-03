@@ -16,7 +16,7 @@ export default function Rooms() {
     return (
         <>
             <div className="h-[700px] bg-[url('/RoomLarge.png')] bg-cover">
-                <div className="h-[700px] bg-stone-500 bg-opacity-50">
+                <div className="h-[700px] bg-stone-500/50">
                     <div className="h-[700px] mx-auto  max-w-2xl  p-6 lg:px-8 py-32 sm:py-48 lg:py-56 flex items-center justify-center ">
                         <div className="text-center">
                             <h1
@@ -27,9 +27,9 @@ export default function Rooms() {
                             <p
                                 className={`mt-6 text-lg leading-8 text-white ${raleway.className}`}
                             >
-                                Discover Your Ideal Retreat: Explore Our Range
-                                of Comfortable and Thoughtfully Designed Room
-                                Types at 3R Residency Munnar.
+                                Discover your ideal retreat: explore
+                                thoughtfully designed room types curated for
+                                gatherings, solo resets, and everything between.
                             </p>
                         </div>
                     </div>

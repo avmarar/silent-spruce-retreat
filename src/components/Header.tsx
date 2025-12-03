@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 
 import { FaBars, FaX } from 'react-icons/fa6';
 
-import { Dialog, Disclosure } from '@headlessui/react';
+import { Dialog, DialogPanel } from '@headlessui/react';
 
 import { poppins } from '@/app/fonts';
 
@@ -23,12 +23,13 @@ export const Header = () => {
             >
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 p-1.5">
-                        <span className="sr-only">3R Residency</span>
+                        <span className="sr-only">Silent Spruce Retreat</span>
                         <Image
-                            src="/3r-high-resolution-logo-transparent.png"
+                            src="/silent-spruce-retreat-logo.png"
                             alt="logo"
-                            width={75}
-                            height={75}
+                            width={100}
+                            height={100}
+                            className="h-auto w-auto max-h-[100px] max-w-[100px]"
                         />
                     </Link>
                 </div>
@@ -97,11 +98,7 @@ export const Header = () => {
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <button
                         className="bg-primary rounded-[5px] w-[165px] h-[55px]"
-                        onClick={() =>
-                            router.push(
-                                'https://www.booking.com/hotel/in/3r-residency-munnar-munnar.html',
-                            )
-                        }
+                        onClick={() => router.push('/booking')}
                     >
                         <span
                             className={`text-white text-[15px] font-medium ${poppins.className}`}
@@ -118,7 +115,7 @@ export const Header = () => {
                 onClose={setMobileMenuOpen}
             >
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-end   ">
                         <button
                             type="button"
@@ -170,11 +167,7 @@ export const Header = () => {
                             <div className="py-6">
                                 <button
                                     className="bg-primary rounded-[5px] w-[120px] h-[55px]"
-                                    onClick={() =>
-                                        router.push(
-                                            'https://www.booking.com/hotel/in/3r-residency-munnar-munnar.html',
-                                        )
-                                    }
+                                    onClick={() => router.push('/booking')}
                                 >
                                     <span
                                         className={`text-white text-[15px] font-medium ${poppins.className}`}
@@ -191,7 +184,7 @@ export const Header = () => {
                             </div>
                         </div>
                     </div>
-                </Dialog.Panel>
+                </DialogPanel>
             </Dialog>
         </header>
     );
