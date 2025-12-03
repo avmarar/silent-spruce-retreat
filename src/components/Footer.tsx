@@ -6,7 +6,7 @@ import { poppins } from '@/app/fonts';
 
 export const Footer = () => {
     return (
-        <footer className="grid grid-flow-row-dense gap-x-4 gap-y-6 text-sm place-items-center items-center p-10 bg-primary text-base-content rounded">
+        <footer className="grid grid-flow-row-dense gap-x-4 gap-y-6 text-sm place-items-center items-center p-10 bg-primary text-base-content rounded-sm">
             <nav className="grid grid-flow-col gap-4">
                 <Link href="/about" className="link link-hover">
                     <span

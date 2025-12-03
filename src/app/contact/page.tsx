@@ -23,7 +23,7 @@ export default function Contact() {
                 </div>
             </div>
             <section className="bg-white">
-                <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                <div className="py-8 lg:py-16 px-4 mx-auto max-w-(--breakpoint-md)">
                     <form action="#" className="space-y-8">
                         <div>
                             <label
@@ -35,7 +35,7 @@ export default function Contact() {
                             <input
                                 type="name"
                                 id="name"
-                                className="shadow-sm bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
+                                className="shadow-xs bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
                                 placeholder="Fullname"
                                 required
                             />
@@ -50,7 +50,7 @@ export default function Contact() {
                             <input
                                 type="email"
                                 id="email"
-                                className="shadow-sm bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
+                                className="shadow-xs bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
                                 placeholder="name@flowbite.com"
                                 required
                             />
@@ -65,7 +65,7 @@ export default function Contact() {
                             <input
                                 type="text"
                                 id="subject"
-                                className="shadow-sm bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
+                                className="shadow-xs bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
                                 placeholder="Let us know how we can help you"
                                 required
                             />
@@ -80,13 +80,13 @@ export default function Contact() {
                             <textarea
                                 id="message"
                                 rows={6}
-                                className="shadow-sm bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
+                                className="shadow-xs bg-white border border-secondary-300 text-secondary text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
                                 placeholder="Leave a comment..."
                             ></textarea>
                         </div>
                         <button
                             type="submit"
-                            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary dark:bg-primary dark:hover:bg-primary dark:focus:ring-primary"
+                            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary focus:ring-4 focus:outline-hidden focus:ring-primary dark:bg-primary dark:hover:bg-primary dark:focus:ring-primary"
                         >
                             Send message
                         </button>

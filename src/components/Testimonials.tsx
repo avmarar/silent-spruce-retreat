@@ -14,9 +14,9 @@ export const Testimonials = () => {
                     Testimonials
                 </h2>
             </div>
-            <div className="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+            <div className="mt-8 [column-fill:balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-neutral-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-neutral-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -55,7 +55,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -88,7 +88,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -123,7 +123,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -155,7 +155,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -194,7 +194,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -227,7 +227,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -261,7 +261,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
@@ -293,7 +293,7 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="mb-8 sm:break-inside-avoid">
-                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
                         <RiDoubleQuotesR
                             style={{
                                 width: '36px',
